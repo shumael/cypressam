@@ -1,0 +1,443 @@
+/*@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800,900');*/
+/*@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');*/
+/*font-family: 'Lato', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;300;400;600;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+
+
+body{
+	overflow-x: hidden;
+ 	font-family: 'Cabin';
+	color: #505962;
+}
+html {
+  scroll-behavior: smooth;
+}
+.navbar{
+	/*text-transform: uppercase;       **this is for uppercase navbar */ 
+	font-weight:600;
+	font-size:1.5rem;
+	background:rgba(80,80,80,0.0) !important;
+}
+.navbar-nav li{
+	padding-right:0.7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	color:white;
+	padding-top: 0.8rem;
+} 
+
+.navbar-dark .navbar-nav .nav-link:hover{
+	color:rgb(186,186,186);
+} 
+
+.home-inner{
+	background-image: url(imgv2/3.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100%;
+	width: 100%;	
+	background-size: cover;
+}
+.caption{
+	width:100%;
+	max-width:100%;
+	position: absolute;
+	top: 40%;
+	z-index:1;
+	color: white;
+}
+.dropbtn {
+  background-color: rgba(0,0,0,0.0);
+  color: white;
+  padding-top: 0.8rem;
+  font-weight:600;
+  font-size: 1.5rem;
+  border: none;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(0,0,0,0.7);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.0);
+  z-index: 1;
+  font-family: Cabin;
+}
+
+.dropdown-content a {
+  color: white;
+  font-size: 1rem;
+  /* padding: 5px; */
+  text-align: center;
+  text-decoration: blink;
+  display: block;
+}
+
+.dropdown-content a:nth-child(1) {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.dropdown-content a:nth-child(2) {
+  padding-bottom: 0.7rem;
+}
+
+/*.dropdown-content a:hover {background-color: rgba(186,186,186,0.5);}*/
+
+.dropdown:hover .dropdown-content {
+  display: block; 
+}
+
+.dropdown .dropdown-content a:hover {
+  text-decoration: none;
+  color: grey;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgba(0,0,0,0.0);
+
+}
+
+.caption h1{
+	font-size:5rem;
+	font-weight: 700;
+	text-shadow: 0.1rem 0.1rem 0.8rem black; 
+	padding-bottom:0.5rem;
+}
+
+.caption h3{
+	font-size:2rem;
+	font-weight: 500;
+	text-shadow: 0.1rem 0.1rem 0.8rem black;
+}
+
+
+
+
+
+
+
+
+
+
+.box{
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.box span{
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-bottom: 4px solid #ffffff;
+  border-right: 4px solid #ffffff;
+  transform: rotate(45deg);
+  margin: -17px;
+  animation: animate 2s infinite;
+}
+.box span:nth-child(2){
+  animation-delay: -0.2s;
+
+}
+.box span:nth-child(3){
+  animation-delay: -0.4s;
+  
+}
+
+
+
+
+
+
+@keyframes animate{
+  0%
+  {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px,-20px);
+  }
+  50%
+  {
+    opacity: 1;
+  }
+  100%
+  {
+    opacity: 0;
+    transform: rotate(45deg) translate(20px,20px);
+  }
+}
+
+
+#intro{
+  
+  text-align: center;
+  font-family: Source Serif Pro;
+  padding-top: 3%;
+}
+
+#intro .container .row .col-sm-12 h3{
+  color: black ;
+}
+
+.description{
+  /*padding-top: 0.5%;*/
+  /*border: 3px solid red;*/
+  width: 33%;
+  text-align: center;
+  margin:auto;
+  font-family: Source Serif Pro;
+}
+
+.description p{
+  color:rgb(85,85,85);
+  padding-bottom:4%;
+}
+
+
+
+
+
+/*.contactinfo{
+	margin: 40px auto;
+	margin-left: 15%;
+	margin-right: 15%;
+	color:black;
+}*/
+
+
+/*.contactinfo h1{
+	font-size: 2.6rem;
+	font-weight: 600;
+}*/
+.otherFooter{
+	/*border: 3px solid red;*/
+	margin-top: 5%;
+	text-align: center;
+	background-color: #333;
+	font-family: 'Lato';
+}
+.otherFooter p{
+	padding-right: 25%;
+	padding-left: 25%;
+	padding-top: 2%; 
+	padding-bottom: 2%;
+	color: white;
+	margin-bottom: 0;
+
+}
+
+#contact{
+	/*padding-top: 5%;*/
+	font-family: 'Lato';
+}
+#contact footer{
+	/*background-image: url(img/unsplash2.jpg);*/
+	/*background-repeat: no-repeat;*/
+	/*background-attachment: fixed;*/
+
+	height: 100%;
+	width: 100%;	
+	/*background-size: cover;*/
+	color: white;
+	text-align: center;
+	background-color: #1f1f1f;
+
+}
+
+#contact footer .row .email{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	margin: auto;
+	
+}
+
+#contact footer .row .email a{
+	font-size:1.5rem;
+	color: white;
+	
+	/*font-weight: 600;*/
+}
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+  .caption{
+	width:100%;
+	max-width:100%;
+	position: absolute;
+	top: 38%;
+	z-index:1;
+	color: white;
+	padding-left: 5%;
+	padding-right: 5%;
+	}
+  .caption h1{
+	font-size:3rem;
+	font-weight: 700;
+	text-shadow: 0.1rem 0.1rem 0.8rem black; 
+	padding-bottom:0.5rem;
+	}
+	.caption h3{
+	font-size:1.3rem;
+	font-weight: 500;
+	text-shadow: 0.1rem 0.1rem 0.8rem black;
+	}
+	.box{
+	  position: absolute;
+	  top: 88%;
+	  left: 50%;
+	  transform: translate(-50%,-50%);
+	}
+
+	.box span{
+	  display: block;
+	  width: 30px;
+	  height: 30px;
+	  border-bottom: 3px solid #ffffff;
+	  border-right: 3px solid #ffffff;
+	  transform: rotate(45deg);
+	  margin: -17px;
+	  animation: animate 2s infinite;
+	}
+
+} 
+
+
+.banner1{
+	padding-top: 1.5%;
+
+}
+
+
+.banner2{
+	/*border: 4px solid red;*/
+	text-align: center;
+	/*height: 200px;*/
+	/*padding-right: 100px;*/
+
+
+}
+.banner3{
+	/*border: 4px solid red;*/
+	text-align: center;
+	/*height: 200px;*/
+	/*padding-right: 100px;*/
+
+
+}
+.banner2 img{
+	/*height: 215px;
+	width: 500px;*/
+	/*height: 100%;
+	width: 130%;*/
+	height: 273px;
+	width: 515px;
+	/*padding-left: 100px;*/
+}
+
+.banner3 img{
+	height: 273px;
+	width: 515px;
+}
+
+.banner2 h4{
+	padding-top: 4%;
+	color:black;
+}
+
+.banner3 h4{
+	padding-top: 4%;
+	color:black;
+}
+
+.banner2 p{
+	/*padding-top: 4%;*/
+	font-size: 1.1rem;
+}
+
+.banner3 p{
+	/*padding-top: 4%;*/
+	font-size: 1.1rem;
+}
+
+.banner2 a{
+	/*padding-top: 4%;*/
+	font-size: 1.1rem;
+	/*color: rgb(85,85,85);*/
+}
+
+.banner3 a{
+	/*padding-top: 4%;*/
+	font-size: 1.1rem;
+	/*color: rgb(85,85,85);*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
