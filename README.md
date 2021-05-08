@@ -1,1 +1,0 @@
-# cypruswm.github.io
