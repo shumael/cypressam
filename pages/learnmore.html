@@ -76,28 +76,32 @@
 
                 <div class="col-sm-12">
                    <form action="https://formsubmit.co/shumael.syed@gmail.com" method="POST">
-                      <label for="fname"> First Name</label><br>
-                      <input type="text" placeholder="First Name" name="fname" required><br>
-                      <label for="lname"> Last Name</label><br>
-                      <input type="text" placeholder="Last Name" name="lname" required><br>
+                      <label id="labelName" for="fname"> Name*</label><br>
+                      <input id="inputFname" type="text" placeholder="First Name" name="fname" size="40" required>
+                      <!-- <label for="lname"> Last Name</label><br> -->
+                      <input id="inputLname" type="text" placeholder="Last Name" name="lname" size="40"required><br>
 
 
-                      <label for="email"> Email</label><br>
-                      <input type="text" placeholder="Email Address" name="email" required><br>
+                      <label id="labelEmail" for="email"> Email*</label><br>
+                      <input id="inputEmail" type="text" placeholder="Email Address" name="email" size="85" required><br>
                       
-                      <label for="message"> Questions or Comments</label><br>
-                      <input type="text" placeholder="Write Your Message" name="message" required><br>
-<!--                       <textarea type="text" placeholder="Write Your Messag" name="message" rows="4" cols="50" required>
-                      </textarea><br> -->
+                      <label id="labelMessage" for="message"> Questions or Comments*</label><br>
+                     <!--  <input style="line-height: 6em" id="inputMessage" type="text" placeholder="Write Your Message" name="message" size="85"required><br> -->
+                      <textarea type="text" placeholder="Message" name="message" rows="4" cols="83" required></textarea><br>
 
                       <input type="hidden" name="_next" value="https://shumael.github.io/cypressam/pages/thanks.html">
 
 
                       <input type="hidden" name="_captcha" value="false">
            
-                      <button type="submit"> Submit </button>
+                      <button id="submitButton" type="submit"> Submit </button>
                      
                    </form>
+                </div>
+
+                <div class="col-sm-12">
+                    <p id="information">Cypress Asset Management works exclusively with private accredited Canada, US, and International investors. The strategies that we implement involve a degree of risk and loss and are not suitable every investor. If you are a qualified investor, feel free to contact us to receive more information about the services that we offer. 
+                    </p>
                 </div>
 
                <!--  <div class="col-sm-12">

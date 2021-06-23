@@ -651,7 +651,7 @@ section {
     font-family: 'Lato', serif;
     color: #666666;
     margin-top: 5%;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
     text-align: left;
 }
 
@@ -979,12 +979,15 @@ section {
 #intro .container .row .col-sm-12 #information{
     color:black;
     font-family: 'Merriweather', serif;
-    font-weight: 300;
+    font-weight: 500;
     /* border: 5px solid red; */
     text-align: left;
-    color:rgb(66, 66, 66);
+    /*color:rgb(66, 66, 66);*/
     line-height: 1.8;
+    margin-bottom: -3%;
+
 }
+
 
 
 .description{
@@ -1129,7 +1132,7 @@ section {
 }
 
 #textBody h5{
-  font-size: 1.5rem;
+  font-size: 0.5rem;
   color: grey;
   font-weight: 400;
   margin-bottom: 2%;
@@ -1138,3 +1141,24 @@ section {
 #textBody p{
   font-family: 'Newsreader', serif;
 }
+
+
+#intro .container .row .col-sm-12 form{
+  color: black;
+  font-family: 'Newsreader', serif;
+  margin-bottom: 5%;
+  font-size:1.2rem;
+}
+
+#intro .container .row .col-sm-12 form input{
+  margin-bottom: 2.5%;
+
+}
+
+#intro .container .row .col-sm-12 form #inputFname{
+  margin-right: 2%;
+
+}
+
+
+inputFname
