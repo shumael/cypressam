@@ -76,10 +76,23 @@
 
                 <div class="col-sm-12">
                    <form action="https://formsubmit.co/shumael.syed@gmail.com" method="POST">
-                      <input type="text" placeholder="Email Address" name="email" required>
-                      <input type="text" placeholder="Full Name" name="name" required>
-                      <input type="text" placeholder="Write Your Message" name="message" required>
+                      <label for="fname"> First Name</label><br>
+                      <input type="text" placeholder="First Name" name="fname" required><br>
+                      <label for="lname"> Last Name</label><br>
+                      <input type="text" placeholder="Last Name" name="lname" required><br>
+
+
+                      <label for="email"> Email</label><br>
+                      <input type="text" placeholder="Email Address" name="email" required><br>
+                      
+                      <label for="message"> Questions or Comments</label><br>
+                      <!-- <input type="text" placeholder="Write Your Message" name="message" required> -->
+                      <textarea type="text" placeholder="Write Your Messag" name="message" rows="4" cols="50" required>
+                      </textarea><br>
+
                       <input type="hidden" name="_next" value="https://shumael.github.io/cypressam/pages/thanks.html">
+
+
                       <input type="hidden" name="_captcha" value="false">
            
                       <button type="submit"> Submit </button>
