@@ -442,8 +442,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color: white;
   margin-bottom: 30px;
   margin-top: 25px;
-  font-size: 24px;
-  font-size:2rem;
+  /*font-size: 24px;*/
+  font-size:3rem;
 
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
@@ -1202,6 +1202,18 @@ section {
     padding-left: 7%;
     padding-right: 7%;
   }
+  #hero h2 {
+/*    color: white;
+    margin-bottom: 30px;
+    margin-top: 25px;*/
+    /*font-size: 24px;*/
+    font-size:1.8rem;
+/*
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;*/
+}
+
 }
 
 
