@@ -1399,7 +1399,7 @@ section {
   }*/
 }
 
-/*Table*/
+/*Tablet Potrait*/
 @media (min-width: 901px) and (max-width: 1050px){
   .banner2 img{
     height: 100%;
