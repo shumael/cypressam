@@ -1243,7 +1243,7 @@ section {
 }
 
 
-@media (max-width: 800px){
+@media (min-width: 768px){
   .banner2 img{
     height: 100%;
     width: 100%;
@@ -1415,7 +1415,7 @@ section {
 }
 
 
-@media (max-width: 1500px){
+@media (min-width: 1200px){
   .banner2 img{
     height: 85%;
     width: 85%;
