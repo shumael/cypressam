@@ -1035,24 +1035,20 @@ section {
   .banner2 img{
     height: 100%;
     width: 104%;
-    /*padding-left:0 !important;
-    padding-right:0 !important;*/
-
   }
   .banner3 img{
     height: 100%;
     width: 104%;
   }
-
-
+  #images .container .row #firstImage{
+    padding-left: 0;
+  }
 
   .banner2{
-    text-align: center;
+    /*text-align: center;*/
     margin-bottom: 10%;
   }
-  .banner3{
-    text-align: center;
-  }
+
 /*  .banner2 a{
     margin-bottom: 15%;
   }
@@ -1111,12 +1107,14 @@ section {
   
   }
   #images{
-    /*border: 3px solid #18d26e;*/
+   /* border: 3px solid #18d26e;*/
     margin-left: 10%;
     margin-right: 10%;
     margin-top: -5%;
     margin-bottom: 13%;
+    text-align: center;
   }
+
   .otherFooter p{
     /*border: 3px solid #18d26e;*/
     margin-left: 2%;
