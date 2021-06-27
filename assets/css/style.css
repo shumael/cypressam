@@ -1030,7 +1030,7 @@ section {
 }
 */
 
-
+/*Phone Potrait*/
 @media (max-width: 576px){
   .banner2 img{
     height: 100%;
@@ -1196,8 +1196,8 @@ section {
 
 }
 
-
-@media (min-width: 600px) and (max-width: 900px){
+/*Phone Landscape and Tablet Potrait*/ 
+@media (min-width: 580px) and (max-width: 900px){
   .banner2 img{
     height: 100%;
     width: 104%;
@@ -1399,18 +1399,31 @@ section {
   }*/
 }
 
-
-@media (min-width: 1200px){
+/*Table*/
+@media (min-width: 901px) and (max-width: 1050px){
   .banner2 img{
-    height: 85%;
-    width: 85%;
+    height: 100%;
+    width: 98%;
     /*padding-left:0 !important;
     padding-right:0 !important;*/
 
   }
   .banner3 img{
-    height: 85%;
-    width: 85%;
+    height: 100%;
+    width: 98%;
+  }
+
+  #images .container .row #firstImage{
+    padding-left: 0;
+    padding-right: 6%;
+  }
+  #images .container .row #secondImage{
+    padding-right: 0;
+    padding-left: 6%;
+  }
+
+  #images h4{
+    margin-top: 4%;
   }
 
 
@@ -1463,7 +1476,7 @@ section {
   font-size: 26px;
   margin-bottom: 5%;
  
-  margin-top: -1%;
+  margin-top: -5%;
 /*  margin-left: 15%;
   margin-right: 15%;*/
   }
@@ -1484,9 +1497,9 @@ section {
   
   }
   #images{
-    /*border: 3px solid #18d26e;*/
-    margin-left: 10%;
-    margin-right: 10%;
+/*    border: 3px solid #18d26e;*/
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: -1.5%;
 
   }
