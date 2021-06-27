@@ -1200,7 +1200,7 @@ section {
 @media (min-width: 600px) and (max-width: 900px){
   .banner2 img{
     height: 100%;
-    width: 100%;
+    width: 104%;
     /*padding-left:0 !important;
     padding-right:0 !important;*/
 
@@ -1208,6 +1208,7 @@ section {
   .banner3 img{
     height: 100%;
     width: 104%;
+    padding-right: 2%;
   }
 
   .description p{
@@ -1217,10 +1218,21 @@ section {
     padding-right: 16%;
 
   }
+  #images .container .row #firstImage{
+    padding-left: 0;
+    padding-right: 4%;
+  }
 
   #images h4{
     margin-top: 5%;
   }
+
+  #images p{
+    
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
 
 
 
@@ -1275,7 +1287,7 @@ section {
   }
   .about p {
 
-  /*border: 3px solid #18d26e;*/
+
   margin-left: -75%;
   margin-right: -75%;
   /*margin-bottom: 20%;*/
@@ -1288,12 +1300,16 @@ section {
     margin-top: -5%;
 
 
+
   }
-/*  .otherFooter{
-    border: 3px solid #18d26e;
-    margin-left: 15%;
-    margin-right: 15%;
-  }*/
+  .otherFooter{
+    /*border: 3px solid #18d26e;*/
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
+
+  }
 /*  #footer{
     border: 3px solid #18d26e;
     margin-left: 15%;
