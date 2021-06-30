@@ -1270,12 +1270,14 @@ section {
   #hero {
   width: 100%;
   height: 80vh;
+  /*border: 3px solid #18d26e;*/
 /*  background: url("../img/zac-ong-JHN1-mpgXjo-unsplash.jpg") center center;
   background-size: cover;
   position: relative;
   margin-top: -80px;
   z-index: 9;*/
   }
+
   .about h3 {
   font-weight: 300;
   font-size: 26px;
@@ -1352,23 +1354,19 @@ section {
   /*margin: 0 0 3% 0;*/
   /*font-size: 48px;*/
   margin-top: 5%;
-  font-size:3rem;
+  font-size: 4.2rem;
   font-weight: 700;
   line-height: 56px;
   line-height: 56px;
   color: white;
+  line-height: 115%;
 
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   }
 
-  #hero{
-  /*margin: 0 0 3% 0;*/
-  /*font-size: 48px;*/
-  
 
-  }
 
 
   .otherFooter p{
@@ -1381,8 +1379,8 @@ section {
     margin-bottom: 30px;
     margin-top: 25px;*/
     /*font-size: 24px;*/
-    font-size:1.8rem;
-    margin-top: 1.5%; 
+    font-size:2.5rem;
+    margin-top: 4%; 
 
 /*
     animation: fadeInAnimation ease 3s;
@@ -1399,7 +1397,7 @@ section {
   }*/
 }
 
-/*Tablet Potrait*/
+/*Tablet Landscape*/
 @media (min-width: 901px) and (max-width: 1050px){
   .banner2 img{
     height: 100%;
@@ -1424,6 +1422,7 @@ section {
 
   #images h4{
     margin-top: 4%;
+    /*border: 3px solid #18d26e;*/
   }
 
 
@@ -1465,6 +1464,7 @@ section {
   #hero {
   width: 100%;
   height: 80vh;
+  /*border: 3px solid #18d26e;*/
 /*  background: url("../img/zac-ong-JHN1-mpgXjo-unsplash.jpg") center center;
   background-size: cover;
   position: relative;
@@ -1475,7 +1475,7 @@ section {
   font-weight: 300;
   font-size: 26px;
   margin-bottom: 5%;
- 
+  /*border: 3px solid #18d26e;*/
   margin-top: -5%;
 /*  margin-left: 15%;
   margin-right: 15%;*/
@@ -1489,7 +1489,7 @@ section {
   }
   .about p {
 
- /* border: 3px solid #18d26e;*/
+  
   margin-left: -105%;
   margin-right: -105%;
   /*margin-bottom: 20%;*/
@@ -1497,7 +1497,7 @@ section {
   
   }
   #images{
-/*    border: 3px solid #18d26e;*/
+    
     margin-left: 15%;
     margin-right: 15%;
     margin-top: -1.5%;
