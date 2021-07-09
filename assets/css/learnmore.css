@@ -641,13 +641,13 @@ section {
 
 .about h3 {
   font-weight: 500;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-family: 'Newsreader', serif;
 }
 
 .about h6 {
     font-weight: 500;
-    font-size: 30px;
+    font-size: 1.8rem;
     font-family: 'Lato', serif;
     color: #666666;
     margin-top: 5%;
@@ -1160,4 +1160,156 @@ section {
 
 }
 
+
+
+
+
+
+
+
+
+
+/*Phone Potrait*/
+@media (max-width: 576px){
+  .about {
+      margin-left: 12%;
+      margin-right: 12%;
+      margin-top: -2%;
+      margin-bottom: -9%;
+  }
+  #hero h1 {
+  
+    font-size:3rem;
+    font-weight: 700;
+    line-height: 56px;
+    line-height: 56px;
+
+  }
+  #inputFname{
+    width: 48%;
+  }
+  #inputLname{
+    width: 48%;
+  }
+  #inputEmail{
+    width: 98.75%;
+  }
+  #comments{
+    width: 98.75%;
+  }
+  .about h3{
+    font-size: 1.8rem;
+  }
+  .about h6{
+    font-size: 1.5rem;
+    margin-bottom: 8%;
+  }
+  .otherFooter p{
+    padding-right: 15%;
+    padding-left: 15%;
+
+  }
+  #information{
+    /*border: 3px solid red;*/
+    font-size: 1rem;
+
+  }
+}
+
+/*Phone Landscape and Tablet Potrait*/ 
+@media (min-width: 577px) and (max-width: 900px){
+  #inputFname{
+    width: 48%;
+  }
+  #inputLname{
+    width: 48%;
+  }
+  #inputEmail{
+    width: 98.75%;
+  }
+  #comments{
+    width: 98.75%;
+  }
+
+  .about {
+      margin-left: 15%;
+      margin-right: 15%;
+      margin-top: -2%;
+      margin-bottom: -2%;
+  }
+  .about h3{
+    font-size: 2rem;
+  }
+
+  .about h6{
+    font-size: 1.5rem;
+  }
+
+  .otherFooter p{
+    padding-right: 19%;
+    padding-left: 19%;
+
+  }
+  #hero h1 {
+  
+  font-size:3.9rem;
+  font-weight: 700;
+  line-height: 56px;
+  line-height: 56px;
+
+  }
+}
+
+/*Tablet Landscape and Laptop*/
+@media (min-width: 901px) and (max-width: 1050px){
+  #inputFname{
+    /*border: 3px solid red;*/
+    width: 48%;
+  }
+  #inputLname{
+    width: 48%;
+  }
+  #inputEmail{
+    width: 98.75%;
+  }
+  #comments{
+    /*border: 3px solid red;*/
+    width: 98.75%;
+  }
+
+  .about {
+      margin-left: 17%;
+      margin-right: 17%;
+      margin-bottom: -2%;
+  }
+
+  .otherFooter p{
+    padding-right: 20%;
+    padding-left: 20%;
+
+  }
+
+}
+
+/*PC*/
+@media (min-width: 1051px){
+  #inputFname{
+    /*border: 3px solid red;*/
+    width: 48%;
+  }
+  #inputLname{
+    width: 48%;
+  }
+  #inputEmail{
+    width: 98.75%;
+  }
+  #comments{
+    /*border: 3px solid red;*/
+    width: 98.75%;
+
+  }
+
+
+
+}
 
