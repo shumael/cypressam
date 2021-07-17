@@ -1214,6 +1214,20 @@ section {
     font-size: 1rem;
 
   }
+  .nav-menu {
+    width: 160px;
+  }
+  .nav-toggle-active {
+    right: 180px;
+  }
+
+  #header .logo img {
+    height: 50px;
+  }
+  #header button {
+    margin-top: -1%;
+    font-size:10px
+  }
 }
 
 /*Phone Landscape and Tablet Potrait*/ 
@@ -1256,7 +1270,19 @@ section {
   font-weight: 700;
   line-height: 56px;
   line-height: 56px;
-
+  }
+  .nav-menu {
+    width: 160px;
+  }
+  .nav-toggle-active {
+    right: 180px;
+  }
+  #header .logo img {
+    height: 60px;
+  }
+  #header button {
+    margin-top: -1%;
+    font-size:10px
   }
 }
 
@@ -1288,6 +1314,10 @@ section {
     padding-left: 20%;
 
   }
+  #header button {
+    margin-top: -0.5%;
+    font-size:10px
+  }
 
 }
 
@@ -1308,8 +1338,9 @@ section {
     width: 98.75%;
 
   }
-
-
+/*  #header .logo img {
+    height: 50px;
+  }*/
 
 }
 

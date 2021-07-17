@@ -1258,7 +1258,7 @@ section {
   #header .logo img {
   /*padding: 0;*/
   /*margin: 0;*/
-  height: 50px;
+  height: 60px;
   /*padding-top: -100px;*/
   }
   #header button {
@@ -1449,12 +1449,9 @@ section {
     margin-bottom: 15%;
   }*/
 
-  #header .logo img {
-  /*padding: 0;*/
-  /*margin: 0;*/
-  height: 50px;
-  /*padding-top: -100px;*/
-  }
+/*  #header .logo img {
+    height: 50px;
+  }*/
   #header button {
   /*padding: 0;*/
   margin-top: -0.5%;
@@ -1650,12 +1647,9 @@ section {
     margin-bottom: 15%;
   }*/
 
-  #header .logo img {
-  /*padding: 0;*/
-  /*margin: 0;*/
+/*  #header .logo img {
   height: 50px;
-  /*padding-top: -100px;*/
-  }
+  }*/
   #header button {
   /*padding: 0;*/
   margin-top: 0%;
