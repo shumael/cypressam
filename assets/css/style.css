@@ -1601,44 +1601,57 @@ section {
 
 @media (min-width: 1051px){
   .banner2 img{
-    height: 125%;
-    width: 129%;
+    height: 90%;
+    width: 90%;
     /*padding-left:0 !important;
     padding-right:0 !important;*/
 
   }
   .banner3 img{
-    height: 125%;
-    width: 129%;
+    height: 90%;
+    width: 90%;
 
   }
 
   #images .container .row #firstImage{
     padding: 0;
+    /* margin-right: 1%; */
   }
   #images .container .row #secondImage{
     padding: 0;
+    /* margin-left: 1%; */
+    /* padding-right: -10%; */
   }
 
   #images h4{
     margin-top: 4%;
-    /*border: 3px solid #18d26e;*/
+    /* border: 3px solid #18d26e; */
   }
+  #images{
+    /* margin-top: 4%; */
+    /* border: 3px solid #18d26e; */
+    padding: 0;
 
+
+  }
 
 
   .banner2{
     text-align: center;
-    /*border: 3px solid #18d26e;*/
+    /* border: 3px solid #18d26e; */
     margin-bottom: 7%;
-    width: 71%;
+    width: 100%;
+    /* float: left; */
+
+    /* margin-right: 0%; */
     /*margin-left: 30%;*/
   }
   .banner3{
     text-align: center;
-    /*border: 3px solid #18d26e;*/
-    width: 70%;
+    /* border: 3px solid #18d26e; */
+    width: 100%;
     margin-bottom: 7%;
+    /* float: right; */
     /*margin-left: 4%;*/
    
   }
@@ -1775,6 +1788,7 @@ section {
 
   #images h4{
     margin-top: 5%;
+
   }
 
   #header .logo img {
